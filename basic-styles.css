@@ -1,0 +1,33 @@
+:root {
+  --header-footer-color: #000d1f;
+  --white: #ffffff;
+  --orange: #f2994a;
+  --roboto-font: Roboto, sans-serif;
+  --montserrat-font: Montserrat, sans-serif;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.container {
+  max-width: 1170px;
+}

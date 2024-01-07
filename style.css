@@ -1,0 +1,36 @@
+@import url("./basic-styles.css");
+
+.header {
+  background-color: var(--header-footer-color);
+}
+.header-container {
+  padding-left: 64px;
+}
+.logo {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  gap: 10px;
+}
+.nav-logo {
+  display: block;
+  height: 34.68px;
+}
+.header-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.header-logo {
+  color: var(--white);
+  font-family: var(--montserrat-font);
+  font-size: 28.54px;
+}
+
+.nav-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.nav-item {
+  color: var(--white);
+}

@@ -3,32 +3,37 @@
 .header {
   background-color: var(--header-footer-color);
 }
-.header-container {
-  padding-left: 64px;
-}
+
 .logo {
+  width: 210px;
   display: grid;
   grid-template-columns: 35px 1fr;
   align-items: center;
   gap: 10px;
+  padding-top: 18px;
+  padding-bottom: 20px;
+  padding-left: 64px;
 }
-.nav-logo {
-  display: block;
-  height: 34.68px;
-}
+
 .header-nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: space-between;
 }
 .header-logo {
   color: var(--white);
   font-family: var(--montserrat-font);
   font-size: 28.54px;
+  border-left: 1px solid var(--orange);
+  padding-left: 10px;
 }
 
 .nav-list {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+  align-items: center;
+  padding-top: 29.5px;
+  padding-bottom: 29.5px;
 }
 
 .nav-item {
